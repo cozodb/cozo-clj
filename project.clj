@@ -1,4 +1,4 @@
-(defproject cozo-clj "0.1.0"
+(defproject com.github.zh217/cozo-clj "0.1.0"
   :description "CozoDb Clojure bindings"
   :url "http://github.com/cozodb/cozo"
   :signing {:gpg-key "hu.ziyang@cantab.net"}
