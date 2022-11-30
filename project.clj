@@ -19,7 +19,7 @@
                    [:id "zh217"]
                    [:name "Ziyang Hu"]]])
   :scm {:name "git" :url "https://github.com/cozodb/cozo-clj"}
-  :license {:name "MIT/Apache-2.0/BSD-3-Clause"}
+  :license {:name "MPL-2.0"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/data.json "2.4.0"]
                  [io.github.cozodb/cozo_java "0.2.1"]]
