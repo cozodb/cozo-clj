@@ -1,6 +1,6 @@
 # cozo-clj
 
-[![Clojars Project](https://img.shields.io/clojars/v/com.github.zh217/cozo-clj.svg)](https://clojars.org/com.github.zh217/cozo-clj)
+[![java](https://img.shields.io/maven-central/v/io.github.cozodb/cozo-clj)](https://mvnrepository.com/artifact/io.github.cozodb/cozo-clj)
 
 Clojure bindings for [CozoDb](https://github.com/cozodb/cozo).
 
@@ -27,4 +27,4 @@ For more information, see the docs.
 ## Dependency
 
 This library depends on `io.github.cozodb/cozo-lib-java`
-for its native bindings. Refer to its [documentation](https://github.com/cozodb/cozo-lib-java).
+for its native bindings.

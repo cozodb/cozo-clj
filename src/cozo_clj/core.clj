@@ -60,8 +60,8 @@
   "Export the relations with names given in a vector.
 
   If `as-objects` is true, the output format is different."
-  [^CozoJavaBridge db rels & [as-objects]]
-  (let [args (json/write-str {:relations rels :as_objects (or as-objects false)})
+  [^CozoJavaBridge db rels]
+  (let [args (json/write-str {:relations rels})
         result (json/read-str
                  (.exportRelations db args)
                  :key-fn keyword)]
