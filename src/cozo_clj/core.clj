@@ -74,6 +74,9 @@
 
   The relations to be imported must already exist in the database.
 
+  Note that triggers are _not_ run for the relations, if any exists.
+  If you need to activate triggers, use queries with parameters.
+
   The format of `payload` is the same as returned by `export-relations`."
   [^CozoJavaBridge db payload]
   (let [args (json/write-str payload)
@@ -104,7 +107,11 @@
 (defn import-relations-from-backup
   "Import relations from a backup file.
 
-  The relations must already exist in the database."
+  The relations must already exist in the database.
+
+  Note that triggers are _not_ run for the relations, if any exists.
+  If you need to activate triggers, use queries with parameters.
+  "
   [^CozoJavaBridge db path relations]
   (let [args (json/write-str {:path path :relations relations})
         result (json/read-str
