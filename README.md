@@ -2,13 +2,12 @@
 
 [![java](https://img.shields.io/maven-central/v/io.github.cozodb/cozo-clj)](https://mvnrepository.com/artifact/io.github.cozodb/cozo-clj)
 
-Clojure bindings for [CozoDb](https://github.com/cozodb/cozo).
+Clojure bindings for [CozoDb](https://www.cozodb.org).
 
 This document describes how to set up Cozo for use in Clojure.
 To learn how to use CozoDB (CozoScript), follow
-the [tutorial](https://github.com/cozodb/cozo-docs/blob/main/tutorial/tutorial.ipynb)
-first and then read the [manual](https://cozodb.github.io/current/manual/). You can run all the queries
-described in the tutorial with an in-browser DB [here](https://cozodb.github.io/wasm-demo/).
+the [tutorial](https://docs.cozodb.org/en/latest/tutorial.html). You can run all the queries
+described in the tutorial with an in-browser DB [here](https://www.cozodb.org/wasm-demo/).
 
 ## Usage
 
