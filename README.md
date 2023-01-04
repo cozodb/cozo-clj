@@ -5,9 +5,7 @@
 Clojure bindings for [CozoDb](https://www.cozodb.org).
 
 This document describes how to set up Cozo for use in Clojure.
-To learn how to use CozoDB (CozoScript), follow
-the [tutorial](https://docs.cozodb.org/en/latest/tutorial.html). You can run all the queries
-described in the tutorial with an in-browser DB [here](https://www.cozodb.org/wasm-demo/).
+To learn how to use CozoDB (CozoScript), read the [docs](https://docs.cozodb.org/en/latest/index.html).
 
 ## Usage
 
@@ -21,7 +19,7 @@ described in the tutorial with an in-browser DB [here](https://www.cozodb.org/wa
 (close db)
 ```
 
-For more information, see the docs.
+For more information, see the built-in docs.
 
 ## Dependency
 
