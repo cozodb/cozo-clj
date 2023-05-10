@@ -2,7 +2,7 @@
 <module type="JAVA_MODULE" version="4">
   <component name="BuildSystem">
     <option name="buildSystemId" value="LEININGEN" />
-    <option name="displayName" value="io.github.cozodb/cozo-clj:0.6.0" />
+    <option name="displayName" value="io.github.cozodb/cozo-clj:0.7.0" />
   </component>
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -17,7 +17,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Leiningen: io.github.cozodb/cozo_java:0.5.1" level="project" />
+    <orderEntry type="library" name="Leiningen: io.github.cozodb/cozo_java:0.7.0" level="project" />
     <orderEntry type="library" name="Leiningen: junit:4.12" level="project" />
     <orderEntry type="library" name="Leiningen: nrepl:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.10.1" level="project" />

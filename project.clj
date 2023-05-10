@@ -1,4 +1,4 @@
-(defproject io.github.cozodb/cozo-clj "0.7.0"
+(defproject io.github.cozodb/cozo-clj "0.7.1"
   :description "CozoDb Clojure bindings"
   :url "http://github.com/cozodb/cozo"
   :repositories {"snapshots" {:url "https://s01.oss.sonatype.org/content/repositories/snapshots"}}
@@ -22,6 +22,6 @@
   :license {:name "MPL-2.0"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/data.json "2.4.0"]
-                 [io.github.cozodb/cozo_java "0.7.0"]]
+                 [io.github.cozodb/cozo_java "0.7.1"]]
   :plugins [[lein-codox "0.10.8"]]
   :repl-options {:init-ns cozo-clj.core})
